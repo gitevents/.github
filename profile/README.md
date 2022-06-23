@@ -36,27 +36,21 @@ sequenceDiagram
     EM->>GI: Create a new Issue using the Event Form
     loop
     GI->>GA: Trigger Issue Event
-    EM->>GI: Add Talks (reference issues)
-    EM->>GI: Add further details / images etc.
+    EM->>GI: Add Talks (reference issues), and further details
     GA->>GA: Check Code of Conduct and other requirements
-    GA->>GI: Comment / Apply labels
-    activate EM
+    GA->>GI: Comment issues
+    EM->>GI: Review / Fix
     end
     loop
-    EM->>GI: Review / Fix issues
     GA->>GI: Apply label "Ready for Review"
-    activate CO
     end
-    CO->>GI: Review new Event
+    CO->>GI: Review Event
     CO->>GI: Apply label "Approved"
     GI->>GA: Trigger Approved Event
     GA->>GA: Run .ics generator for calendar subscriptions
     par Propaganda
     GA->>GA: Create Discord Event
-    GA->>GA: Create OpenCollective Event (todo)
+    GA->>GA: Create OpenCollective, Facebook, Meetup etc Event (todo)
     GA->>GA: Tweet (todo)
-    GA->>GA: Create Facebook Event (todo)
-    GA->>GA: Create LinkedIn Event (todo)
-    GA->>GA: Create Meetup Event (todo)
     end
 ```
