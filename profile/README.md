@@ -16,7 +16,20 @@ https://gitevents.org
 - 🤖 Automation with GitHub Actions
 - 🙈 No databases, admin management, etc.
 
-### Active Actions/Plugins
+## How it works
+
+We recommend to use a GitHub Organization for your group, such as the
+[Cyprus Developer Community](http://github.com/cyprus-developer-community),
+[BarcelonaJS](https://github.com/barcelonajs) etc. You can then add GitEvents to
+any repo ie. `events` by adding the
+[GitEvents Action](https://github.com/gitevents/action). There are more GitHub
+Actions for different purposes, for example a Calendar Action to generate `.ics`
+files for calendar subscriptions or the Broadcast Action to tweet about your
+events. We have a [GitHub Project](https://github.com/orgs/gitevents/projects/1)
+with feature requests and things we're working on to make GitEvents even better.
+All contributions are welcome.
+
+### GitEvent Actions
 
 - 🌈 [Inclusive Org](https://github.com/gitevents/inclusive-org) - every
   interaction with a repo (comment, reaction, discussion, push, etc.) triggers
