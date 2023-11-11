@@ -43,4 +43,4 @@ All contributions are welcome.
 
 ### Chat, Discussion & Support
 
-👩‍💻 [Join on Discord](https://discord.gg/m6cphasp4z)
+👩‍💻 [Join on Discord](https://discord.gg/4h2c2tTvgK)
