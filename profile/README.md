@@ -8,8 +8,6 @@ as broadcasting to various channels such as Twitter, Discord, etc. Finally, you
 can use the GitHub API and the set of pre-defined labels to retrieve all the
 events and talks for a beautiful event website.
 
-https://gitevents.org
-
 - 🌈 Open & Inclusive Organization
 - :octocat: Manage Events, Talks, Suggestions etc. with GitHub Issues
 - 🧑‍💻 GitHub GraphQL backend to feed your own website
